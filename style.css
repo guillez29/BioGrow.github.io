@@ -1,9 +1,53 @@
 body {
-    font-family: Arial;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
     text-align: center;
-    background-color: #f2f2f2;
+
+    background-image:
+        linear-gradient(rgba(0, 80, 0, 0.6), rgba(0, 80, 0, 0.6)),
+        url("images/fondo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
 }
 
 h1 {
-    color: green;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: normal;
+    color: #b6ffb6;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+img {
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
